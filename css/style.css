@@ -1,0 +1,43 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+  background-color: lightgray;
+}
+
+button,
+li {
+  cursor: pointer;
+}
+
+button {
+  margin: 10px;
+}
+
+main {
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.numbers {
+  list-style: none;
+  border: 1px solid #cccccc;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.number {
+  border: 1px solid #dddddd;
+  display: inline-block;
+  margin: 10px;
+  width: 25px;
+  border-radius: 100%;
+  padding: 10px;
+  user-select: none;
+}
+
+.selected-number {
+  background-color: lightgreen;
+}
